@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "LHArray.h"
 
 @interface ViewController ()
 
+@property  (nonatomic, strong)  LHArray *array;
 @end
 
 @implementation ViewController
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.array = [[LHArray alloc]init];
+    [self.array addObject:@"1"];
+    [self.array addObject:@"2"];
+    [self.array addObject:@"3"];
+    [self.array addObject:@"4"];
+    NSLog(@"%ld",self.array.count);
 }
 
 

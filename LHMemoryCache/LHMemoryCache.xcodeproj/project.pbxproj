@@ -15,6 +15,7 @@
 		793315402023FBBF008610D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933153F2023FBBF008610D4 /* main.m */; };
 		7933154A2023FBBF008610D4 /* LHMemoryCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 793315492023FBBF008610D4 /* LHMemoryCacheTests.m */; };
 		793315552023FBBF008610D4 /* LHMemoryCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 793315542023FBBF008610D4 /* LHMemoryCacheUITests.m */; };
+		793315642024087C008610D4 /* LHArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 793315632024087C008610D4 /* LHArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		793315502023FBBF008610D4 /* LHMemoryCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHMemoryCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		793315542023FBBF008610D4 /* LHMemoryCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHMemoryCacheUITests.m; sourceTree = "<group>"; };
 		793315562023FBBF008610D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793315622024087C008610D4 /* LHArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHArray.h; sourceTree = "<group>"; };
+		793315632024087C008610D4 /* LHArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		7933152F2023FBBF008610D4 /* LHMemoryCache */ = {
 			isa = PBXGroup;
 			children = (
+				7933156520240882008610D4 /* nodeArray */,
 				793315302023FBBF008610D4 /* AppDelegate.h */,
 				793315312023FBBF008610D4 /* AppDelegate.m */,
 				793315332023FBBF008610D4 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				793315562023FBBF008610D4 /* Info.plist */,
 			);
 			path = LHMemoryCacheUITests;
+			sourceTree = "<group>";
+		};
+		7933156520240882008610D4 /* nodeArray */ = {
+			isa = PBXGroup;
+			children = (
+				793315622024087C008610D4 /* LHArray.h */,
+				793315632024087C008610D4 /* LHArray.m */,
+			);
+			path = nodeArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				793315352023FBBF008610D4 /* ViewController.m in Sources */,
 				793315402023FBBF008610D4 /* main.m in Sources */,
 				793315322023FBBF008610D4 /* AppDelegate.m in Sources */,
+				793315642024087C008610D4 /* LHArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
